@@ -109,6 +109,7 @@ nav .fa {
         font-size: 20px;
         font-family: "Permanent Marker", cursive;
         font-style: normal;
+        padding: 20px;
     }
     .nav-links ul li {
         display: block;
@@ -271,9 +272,13 @@ h3 {
 }
 
 .facilities-col h3 {
-    margin-top: 16px;
+    margin-top: 1px;
     margin-bottom: 15px;
     text-align: center;
+}
+
+#yt {
+    margin-top: 50px;
 }
 
 /*------ testimonials -----*/
@@ -286,25 +291,21 @@ h3 {
 }
 
 .testimonial-col {
-    flex-basis: 44%;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    text-align: left;
-    background: #baf7d8;
-    padding: 25px;
     cursor: pointer;
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 0%;
+    text-align: center;
 }
 
 .testimonial-col img {
     height: 300px;
-    margin-left: 5px;
-    margin-right: 10px;
     border-radius: 50%;
-    float: left;
+
 }
 
 .testimonial-col p {
-    padding: 0;
+    padding: 0px;
 }
 
 .testimonial-col h3 {
@@ -312,9 +313,13 @@ h3 {
     text-align: left;
 }
 
+.intro h3 {
+    text-align: right;
+}
+
 @media(max-width: 700px){
     .testimonial-col img {
-        height: 40px;
+        height: 150px;
         margin-left: 0px;
         margin-right: 15px; 
     }
