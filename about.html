@@ -48,7 +48,7 @@
     <!----- Footer ----->
 
     <section class="footer">
-        <h4>About Us</h4>
+        <h4>About Life Force Church?</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A mollitia quidem, voluptatum omnis accusantium consectetur exercitationem facere<br>provident nulla laudantium, magnam aliquam excepturi! Itaque corrupti optio autem veritatis quidem. Qui.</p>
         <div class="icons">
             <i class="fa fa-facebook"></i>
@@ -56,7 +56,7 @@
             <i class="fa fa-instagram"></i>
             <i class="fa fa-linkedin"></i>
         </div>
-        <p>Made with  <i class="fa fa-heart-o"></i> By IceCodeWithcream </p>
+         <p class="p2">&copy; <span id="year"></span> Life Force Church. All Rights Reserved.</p>
     </section>
     
 
@@ -76,6 +76,8 @@
         function hideMenu(){
             navLinks.style.right = "-200px";
         }
+
+        document.getElementById("year").textContent = new Date().getFullYear();
     </script>
 
     
